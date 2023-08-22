@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    /* height: 80px; */
+    background-color: #3b065e;
+    position: fixed;
+    z-index: 10;
+    border-bottom: 1px solid white;
+    box-shadow: black (0.5);
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+header i{
+    position: absolute;
+    right: 28px;
+    top: 28px;
+    opacity: 0;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 22px;
+    
+}
+
+.img{
+    width: 130px;
+}
+
+.custom{
+    display: none;
+    padding: 26px 20px;
+    opacity: 0;
+    width: 172px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-items li{
+    margin: 0px 15px;
+}
+
+.nav-items a{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 5px 5px;
+}
+.section-1{
+    background-color: #3b065e;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.main-img {
+    position: relative;
+    max-width: 57%;
+    height: auto;
+    overflow: hidden;
+}
+
+.main-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content{
+    width: 50%;
+    padding: 20px;
+}
+.content h1{
+    font-size: 3rem;
+
+
+}
+.content p{
+    font-size: 1.2rem
+}
+.content h1, p{
+    margin: 44px 13px;
+}
+p a{
+    text-decoration: underline;
+}
+.title{
+    text-align: center;
+    margin: 70px 0px;
+    font-family: 'Barlow', sans-serif;
+}
+.title h1{
+    font-size: 3rem;
+}
+.title p{
+    margin: 21px 18px;
+}
+.main-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.img-2 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    overflow: hidden;
+}
+.img-2 img{
+    width: 677px;
+}
+.box{
+    display: flex;
+}
+.item{
+    width: 220px;
+    height: 220px ;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+}
+
+.box-1{
+    background: #29B7DD;
+    margin-bottom: 10px;
+    margin: 0px 10px 10px;
+}
+.box-2{
+    background: #8b72ee;
+    margin-bottom: 10px;
+    margin: 0px 10px 10px;
+}
+.box-3{
+    background: #5d3be7;
+    margin-bottom: 10px;
+    margin: 0px 10px 10px;
+}
+.box-4{
+    background: #bd72ef;
+    margin-bottom: 10px;
+    margin: 0px 10px 10px;
+}
+.credit p{
+    text-align: center;
+    margin:40px;
+}
+.credit p a{
+    color: blue;
+}
+.data-sec{
+    background-color: #3b065e;
+    color: white;
+}
+.data .data-title h1{
+    font-size: 4rem;
+    margin: 10px 0;
+}
+.data-img img {
+    width: 50vw;
+}
+
+.data-sec{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-family: 'Barlow', sans-serif;
+}
+.right-para{
+    margin: 44px 96px;
+}
+
+.strategy{
+    margin-top: 138px;
+}
+.left-item{
+    padding: 100px;
+}
+.custom-1{
+    margin: 20px 0px;
+    font-size: 1.4rem;
+
+}
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+    
+}
+.right-item img{
+    width: 50vw;
+}
+.left-item h1{
+    font-size: 3rem;
+}
+.credit-1 a{
+    color: #5d3be7;
+}
+.section-5{
+    width: 100%;
+    background-color: #3b065e;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.section-5 .img-1{
+    width: 70vw;
+    position: relative;
+    z-index: 1;
+    left: 274px;
+   
+}
+.section-5 .img-3{
+    width: 579px;
+    height: 726px;
+    position: relative;
+    right: 238px;
+ }
+.boxes{
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    right: 100px;
+    margin-top: 240px;
+    font-family: 'Barlow', sans-serif;
+}
+.boxes .item-2{
+    margin: 20px;
+    background: white;
+    color: black;
+width: 200px;
+height: 200px;
+}
+.section-6{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 20px 110px 20px 110px;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+
+}
+ 
+.section-6 .right-alaign{
+    padding: 100px 19px;
+    text-align: right;}
+.right-item img{
+    width: 57vw;
+}
+.section-7{
+    width: 100%;
+    background-color: #3b065e;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.fdff{
+    width: 50vw;
+}
+.box-7{
+    width: 600px;
+    height: 400px;
+    background: white;
+    position: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 69px;
+    align-self: center;
+    position: relative;
+    bottom: -135px;
+    left: 105px;
+    
+}
+.text-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-7 p{
+    margin: 40px 0;
+}
+.box-7 h1{
+    font-size: 3rem;
+}
+.section-8{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding: 80px 0;
+    font-family: 'Barlow', sans-serif;
+}
+.section-8 .left-content{
+    width: 39%;
+}
+.left-content h1{
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 35px;
+}
+.section-8 .rigt-content{
+    width: 49%;
+}
+.section-8 .rigt-content p{
+    font-size: 1.2rem;
+}
+.section-9{
+    font-family: 'Barlow', sans-serif;
+    background-color: #3b065e;
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+    
+
+}
+.section-9 .get-in-touch h1{
+    font-weight: 300;
+    font-size: 3em;
+    
+}
+.box-123{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Barlow', sans-serif;
+}
+.my-box{
+    width: 320px;
+    height: 300px;
+    background: white;
+    margin: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Barlow', sans-serif;
+}
+.section-9 h2{
+    color: rgb(155, 155, 155);
+    
+
+}
+footer{
+    padding: 30px;
+    background: #242424;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}

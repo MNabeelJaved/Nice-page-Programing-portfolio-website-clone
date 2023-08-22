@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+button{
+    padding: 6px 31px;
+    margin: 0px 4px;
+    border-radius: 8px;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    background-color: transparent;
+    margin-right: 0px;
+    outline: none;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-2 button{
+    padding: 9px 63px;
+    border-radius: 50px;
+    background-color: #00b0ff;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
